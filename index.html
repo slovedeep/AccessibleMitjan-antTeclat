@@ -1,0 +1,36 @@
+ <!DOCTYPE html>
+ <html lang="en">
+
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Accessible Mitjançant Teclat</title>
+     <link rel="stylesheet" href="./style/style.css">
+     <script src="./script/script.js"></script>
+ </head>
+
+ <body>
+     <form class="form">
+         <h2>CONTACT US</h2>
+         <label for="Name">Name: </label>
+         <input placeholder="Write your name here.." pattern="[a-zA-Z ]*" title="Introduce tu Nombre" tabindex="1"
+             required></input>
+
+         <label for="Email">Email: </label>
+         <input placeholder="Let us know how to contact you back.."
+             pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" title="Introduce tu Email"
+             tabindex="2" required></input><!-- foo-bar.baz@example.com -->
+
+         <label for="Message">Message: </label>
+         <input placeholder="What would you like to tell us.." title="Escriba el mensaje" tabindex="3" required></input>
+
+         <button>Send Message</button>
+         <div>
+            <span class="fa fa-phone">001 1023 567</span>
+            <span class="fa fa-envelope-o">contact@company.com</span>
+         </div>
+     </form>
+ </body>
+
+ </html>
