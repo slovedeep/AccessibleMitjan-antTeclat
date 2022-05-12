@@ -14,16 +14,16 @@
      <form class="form">
          <h2>CONTACT US</h2>
          <label for="Name">Name: </label>
-         <input placeholder="Write your name here.." pattern="[a-zA-Z ]*" title="Introduce tu Nombre" tabindex="1"
+         <input type="text" placeholder="Write your name here.." pattern="[a-zA-Z ]*" title="Introduce tu Nombre" tabindex="1"
              required></input>
 
          <label for="Email">Email: </label>
-         <input placeholder="Let us know how to contact you back.."
+         <input type="email" placeholder="Let us know how to contact you back.."
              pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" title="Introduce tu Email"
              tabindex="2" required></input><!-- foo-bar.baz@example.com -->
 
          <label for="Message">Message: </label>
-         <input placeholder="What would you like to tell us.." title="Escriba el mensaje" tabindex="3" required></input>
+         <input type="text" placeholder="What would you like to tell us.." title="Escriba el mensaje" tabindex="3" required></input>
 
          <button>Send Message</button>
          <div>
